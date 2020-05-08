@@ -5,7 +5,6 @@
 ### Get all Books :
 `http://localhost:8080/api/book`
 
-
 `[
     {
         "title": "Spring Boot Starter App development",
@@ -18,7 +17,7 @@
 `http://localhost:8080/api/book/{id}`
 
 ---
-**Sampel Response:**
+#### **Sampel Response:**
 ---
 `{
     "title": "Spring Boot Starter",
@@ -26,11 +25,11 @@
     "id": 4
 }`
 
-###Add Book By Id : 
+### Add Book By Id : 
 `http://localhost:8080/api/book/{id}`
 
 ---
-**Request Body:** 
+#### **Request Body:** 
 ---
 `{
   "title":"Spring Boot Starter App development",
@@ -39,7 +38,7 @@
 }`
 
 ---
-**Response body :** 
+#### **Response body :** 
 ---
 `{
     "title": "Spring Boot Starter",
@@ -51,7 +50,7 @@
 `http://localhost:8080/api/book/{id}`
 
 ---
-**Request Body:**
+#### **Request Body:**
 ---
 `{
     "title":"Spring Boot Starter Actuators exposure",
@@ -60,14 +59,14 @@
 }`
 
 ---
-**Response Body:**
+#### **Response Body:**
 ---
 
-`{
+```{
     "title": "Spring Boot Starter Actuators exposure",
     "author": "Narender Singh",
     "id": 4
-}`
+}```
 
 ### Delete Book By Id : 
 `http://localhost:8080/api/book/{id}`
