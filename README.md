@@ -1,5 +1,9 @@
 # Genpact Library Book Keeping Assingment
 
+## Build Application #### `mvn clean install`
+
+## Run Application #### `mvn spring-boot:run`
+
 ## Below are exposed API end points
 
 ### Get all Books : `http://localhost:8080/api/book`
