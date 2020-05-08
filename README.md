@@ -1,12 +1,16 @@
 # Genpact Library Book Keeping Assingment
 
-## Build Application #### `mvn clean install`
+## Build Application
+`mvn clean install`
 
-## Run Application #### `mvn spring-boot:run`
+## Run Application 
+`mvn spring-boot:run`
 
 ## Below are exposed API end points
 
 ### Get all Books : `http://localhost:8080/api/book`
+
+#### Sampel Response:
 
 ``[
     {
@@ -18,7 +22,7 @@
 
 ### Get Book By Id : `http://localhost:8080/api/book/{id}`
 
-#### **Sampel Response:**
+#### Sampel Response:
 
 ``{
     "title": "Spring Boot Starter",
@@ -28,7 +32,7 @@
 
 ### Add Book By Id : `http://localhost:8080/api/book/{id}`
 
-#### **Request Body:** 
+#### Request Body:
 
 ``{
   "title":"Spring Boot Starter App development",
@@ -36,7 +40,7 @@
   "library_id":1
 }``
 
-#### **Response body :** 
+#### Response body :
 
 ``{
     "title": "Spring Boot Starter",
@@ -46,14 +50,14 @@
 
 ### Update Book By Id : `http://localhost:8080/api/book/{id}`
 
-#### **Request Body:**
+#### Request Body:
 ``{
     "title":"Spring Boot Starter Actuators exposure",
     "author":"Narender Singh",
     "library_id":1
 }``
 
-#### **Response Body:**
+#### Response Body:
 
 ``{
     "title": "Spring Boot Starter Actuators exposure",
@@ -63,4 +67,4 @@
 
 ### Delete Book By Id : `http://localhost:8080/api/book/{id}`
 
-**No Response fo delete**
+No Response fo delete
