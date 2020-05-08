@@ -13,9 +13,10 @@ public class Book {
     private Library library;
 
     public Book() { }
-    public Book(String title, String author) {
+    public Book(String title, String author, Library library) {
         this.title = title;
         this.author = author;
+        this.library = library;
     }
 
     public Long getId() {
@@ -40,5 +41,9 @@ public class Book {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public void setLibrary(Library library) {
+        this.library = library;
     }
 }
