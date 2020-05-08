@@ -40,37 +40,45 @@
 
 #### Request Body:
 
-``{
+```
+{
   "title":"Spring Boot Starter App development",
   "author":"Narender Singh",
   "library_id":1
-}``
+}
+```
 
 #### Response body :
 
-``{
+```
+{
     "title": "Spring Boot Starter",
     "author": "Narender Singh",
     "id": 4
-}``
+}
+```
 
 ### Update Book By Id : 
 `http://localhost:8080/api/book/{id}`
 
 #### Request Body:
-``{
+```
+{
     "title":"Spring Boot Starter Actuators exposure",
     "author":"Narender Singh",
     "library_id":1
-}``
+}
+```
 
 #### Response Body:
 
-``{
+```
+{
     "title": "Spring Boot Starter Actuators exposure",
     "author": "Narender Singh",
     "id": 4
-}``
+}
+```
 
 ### Delete Book By Id : 
 `http://localhost:8080/api/book/{id}`
@@ -82,25 +90,26 @@ No Response fo delete
 
 #### Sample response : 
 
-``
+```
 [
     {
         "id": 1,
         "name": "Genpact Book Library"
     }
 ]
-``
+```
+
 ### Get Libraries:
 `http://localhost:8080/api/library/{id}`
 
 #### Sample response:
 
-``
+```
 {
     "id": 1,
     "name": "Genpact Book Library"
 }
-``
+```
 
 
 ### Get Libraries:
@@ -108,7 +117,7 @@ No Response fo delete
 
 #### Sampel response: 
 
-``
+```
 [
     {
         "title": "Spring Boot Starter Actuators exposure",
@@ -120,4 +129,5 @@ No Response fo delete
         "author": "Akshay Singh",
         "id": 35
     }
-]``
+]
+```
