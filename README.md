@@ -86,7 +86,7 @@
 No Response fo delete
 
 ### Get Libraries:
-`http://localhost:8080/api/library/{id}`
+`http://localhost:8080/api/library`
 
 #### Sample response : 
 
@@ -99,7 +99,7 @@ No Response fo delete
 ]
 ```
 
-### Get Libraries:
+### Get Library by id:
 `http://localhost:8080/api/library/{id}`
 
 #### Sample response:
@@ -112,7 +112,7 @@ No Response fo delete
 ```
 
 
-### Get Libraries:
+### Get All books from Library:
 `http://localhost:8080/api/library/{id}/books`
 
 #### Sampel response: 
